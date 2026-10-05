@@ -1,0 +1,4 @@
+date,run_name,filters,dense,dropout,lr,batch,augment,class_weights,epochs_run,params,val_acc,val_macro_f1
+2026-10-05 14:40,cnn_v1,"32,64,128",128,0.5,0.001,32,True,True,16,110948,0.2742,0.1461
+2026-10-05 14:51,cnn_v2,"32,64,128",128,0.5,0.001,32,True,True,52,110948,0.6371,0.5994
+2026-10-05 15:11,cnn_v3,"32,64,128",128,0.5,0.001,32,True,True,67,110948,0.687,0.688

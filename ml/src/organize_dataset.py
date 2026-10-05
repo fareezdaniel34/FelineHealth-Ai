@@ -18,11 +18,14 @@ Creates:
 """
 import csv
 import shutil
+import sys
 from collections import Counter
 from pathlib import Path
 
 RAW_DIR = Path("ml/data/raw")
-SPLIT_CSV = Path("ml/data/split.csv")
+# Optional argument: which split file to use, e.g.
+#   python ml/src/organize_dataset.py ml/data/split_v2.csv
+SPLIT_CSV = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("ml/data/split.csv")
 OUT_DIR = Path("ml/data/clean")
 
 
