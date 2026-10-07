@@ -1,0 +1,37 @@
+=== A. CNN on full photo ===
+               precision    recall  f1-score   support
+
+Flea Allergy       0.783     0.720     0.750        25
+Health             0.683     0.757     0.718        37
+Ringworm           0.619     0.743     0.675        35
+Scabies            0.778     0.389     0.519        18
+
+accuracy                               0.687       115
+macro avg          0.716     0.652     0.665       115
+
+=== B. CNN on U-Net crop ===
+               precision    recall  f1-score   support
+
+Flea Allergy       0.750     0.720     0.735        25
+Health             0.732     0.811     0.769        37
+Ringworm           0.707     0.829     0.763        35
+Scabies            0.889     0.444     0.593        18
+
+accuracy                               0.739       115
+macro avg          0.769     0.701     0.715       115
+
+=== C. Combined (A+B)/2 ===
+               precision    recall  f1-score   support
+
+Flea Allergy       0.783     0.720     0.750        25
+Health             0.727     0.865     0.790        37
+Ringworm           0.707     0.829     0.763        35
+Scabies            1.000     0.389     0.560        18
+
+accuracy                               0.748       115
+macro avg          0.804     0.701     0.716       115
+
+U-Net found a lesion in 92% of Flea Allergy images
+U-Net found a lesion in 59% of Health images
+U-Net found a lesion in 100% of Ringworm images
+U-Net found a lesion in 78% of Scabies images

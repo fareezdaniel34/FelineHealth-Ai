@@ -1,0 +1,9 @@
+               precision    recall  f1-score   support
+
+Flea Allergy       0.792     0.760     0.776        25
+Health             0.794     0.730     0.761        37
+Ringworm           0.707     0.829     0.763        35
+Scabies            0.688     0.611     0.647        18
+
+accuracy                               0.748       115
+macro avg          0.745     0.732     0.737       115

@@ -1,0 +1,2 @@
+date,run_name,img,base,lr,weight_decay,dice_weight,augment,seed,epochs_run,best_epoch,params,val_iou_lesion,val_dice_lesion,val_iou_all,val_dice_all,healthy_clean
+2026-10-07 22:39,unet_v1,96,8,0.001,0.0001,1.0,True,42,84,64,122465,0.4197,0.5329,0.3597,0.4568,0.0

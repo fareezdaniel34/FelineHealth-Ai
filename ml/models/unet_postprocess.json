@@ -1,0 +1,5 @@
+{
+  "threshold": 0.3,
+  "min_blob_px": 92,
+  "img_size": 96
+}
