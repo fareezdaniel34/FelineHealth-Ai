@@ -1,0 +1,39 @@
+.paw-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.paw {
+  position: absolute;
+  animation-name: paw-spin;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  will-change: transform;
+}
+
+.paw svg {
+  width: 100%;
+  height: 100%;
+}
+
+.paw-blue   { fill: #3B82F6; opacity: 0.10; }
+.paw-yellow { fill: #FACC15; opacity: 0.10; }
+
+@keyframes paw-spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+/* users with "reduce motion" turned on get still paws */
+@media (prefers-reduced-motion: reduce) {
+  .paw { animation: none; }
+}
+
+/* keep the real app above the paws */
+#root > :not(.paw-bg) {
+  position: relative;
+  z-index: 1;
+}
