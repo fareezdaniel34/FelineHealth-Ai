@@ -1,0 +1,47 @@
+.find-vet {
+  margin-top: 1.25rem;
+  padding: 1rem 1.25rem;
+  border-radius: 12px;
+  background: rgba(37, 99, 235, 0.10);
+  border: 1px solid rgba(37, 99, 235, 0.35);
+}
+
+.find-vet-tip {
+  margin: 0 0 0.85rem;
+  line-height: 1.5;
+}
+
+.find-vet-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1.2rem;
+  border-radius: 10px;
+  background: #2563EB;          /* white text on this blue passes WCAG AA */
+  color: #FFFFFF;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.find-vet-btn:hover {
+  background: #1D4ED8;
+  transform: translateY(-1px);
+}
+
+.find-vet-btn:focus-visible {
+  outline: 3px solid #FACC15;   /* yellow focus ring, matches the planned theme */
+  outline-offset: 2px;
+}
+
+.find-vet-btn svg {
+  width: 1.1rem;
+  height: 1.1rem;
+  fill: currentColor;
+}
+
+.find-vet-note {
+  margin: 0.6rem 0 0;
+  font-size: 0.8rem;
+  opacity: 0.7;
+}

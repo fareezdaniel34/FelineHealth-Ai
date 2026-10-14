@@ -1,5 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import "./App.css";
+import FindVetButton from "./FindVetButton.jsx";
+
 
 // Flask backend address (change in a .env file with VITE_API_URL if needed)
 const API = import.meta.env.VITE_API_URL ?? "http://127.0.0.1:5000";
@@ -103,6 +105,7 @@ function ResultCard({ result, onReset }) {
           <p><strong>Contagious:</strong> {info.contagious}</p>
         )}
         <p><strong>What to do:</strong> {info.advice}</p>
+        <FindVetButton result={result} />
       </div>
 
       <button className="btn btn-secondary" onClick={onReset}>Check another photo</button>
