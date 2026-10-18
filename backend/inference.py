@@ -124,9 +124,10 @@ class FelineHealthService:
 
         if conf < self.cfg["min_confidence"]:
             result_type, reason = "uncertain", "low_confidence"
-            message = (f"The result is unclear. Most likely: {label} ({conf:.0%}) or "
-                       f"{second} ({float(probs[k2]):.0%}). Try a clear, well-lit, close-up "
-                       f"photo of the affected skin, or consult a veterinarian.")
+            top3 = ", ".join(f"{self.class_names[i]} {float(probs[i]):.0%}" for i in order[:3])
+            message = (f"The system could not reach a confident result (top scores: {top3}). "
+                       f"Try a clear, well-lit photo of the area you are worried about, "
+                       f"or consult a veterinarian.")
         elif label == "Health":
             result_type = "healthy"
             message = "No signs of ringworm, flea allergy or scabies were detected."

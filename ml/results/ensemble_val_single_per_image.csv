@@ -1,0 +1,116 @@
+file,true,lesion_found,pred_combined,conf_combined,p_Flea Allergy,p_Health,p_Ringworm,p_Scabies
+1000010601_x4_jpg.rf.ca59189e0ae80ca23401ca4dabaa5467.jpg,Flea Allergy,True,Ringworm,0.8729,0.1246,0.0014,0.8729,0.0011
+340947808_546167834308890_7592465449990658927_n_jpg.rf.e23c5c333eb137940cb474f58bc3ba11.jpg,Flea Allergy,True,Flea Allergy,0.4733,0.4733,0.0466,0.4627,0.0173
+5d5641b96b930df01eb7df119e680c9fdb41f4e4_jpeg_jpg.rf.13ad3c2792c89f4935b51be5539d7149.jpg,Flea Allergy,True,Flea Allergy,0.8731,0.8731,0.0046,0.1191,0.0032
+aug_0_1323_jpeg.rf.03334cf887e0a653b710e107317c4327.jpg,Flea Allergy,True,Flea Allergy,0.9785,0.9785,0.0004,0.0201,0.0009
+aug_0_1613_jpeg.rf.18797d8a6468e5976367d005b3656b84.jpg,Flea Allergy,True,Flea Allergy,0.9249,0.9249,0.0032,0.0677,0.0042
+aug_0_2755_jpeg_jpg.rf.f32ad0b61710bf249ad50f570b58de1d.jpg,Flea Allergy,True,Flea Allergy,0.8872,0.8872,0.0142,0.0751,0.0236
+aug_0_2973_jpeg.rf.bc1ccaf7fbf306a16dfa3d9046709a7e.jpg,Flea Allergy,True,Flea Allergy,0.964,0.964,0.0013,0.0324,0.0023
+aug_0_3637_jpeg.rf.1f7370009a6f3ac5cef430641f10f70f.jpg,Flea Allergy,True,Flea Allergy,0.8647,0.8647,0.0204,0.0802,0.0347
+aug_0_3663_jpeg.rf.40d22dfcacc3113db7d99807b1b45279.jpg,Flea Allergy,True,Flea Allergy,0.9269,0.9269,0.0132,0.0582,0.0017
+aug_0_4602_jpeg.rf.6f2561175d519b6d3a8a5870c0b55682.jpg,Flea Allergy,True,Flea Allergy,0.9168,0.9168,0.0029,0.0726,0.0077
+aug_0_6545-1-_jpeg.rf.dc62765640f1e37f33b9e44a24ac234f.jpg,Flea Allergy,True,Flea Allergy,0.8399,0.8399,0.0131,0.1322,0.0148
+aug_0_7726_jpeg_jpg.rf.c1883571853aebf0a0a51d494b18c0aa.jpg,Flea Allergy,True,Flea Allergy,0.8831,0.8831,0.008,0.1067,0.0021
+flea_allergy-49-_jpg.rf.458598d933aa1bbf334768202967adfa.jpg,Flea Allergy,False,Health,0.5953,0.0841,0.5953,0.1625,0.1582
+hotspot-103-_jpg.rf.8581df8c32fa165efe431168c7282f92.jpg,Flea Allergy,True,Ringworm,0.7368,0.1346,0.1101,0.7368,0.0185
+hotspot-104-_jpg.rf.e5bfa5064a0067a78685d863b90ebec3.jpg,Flea Allergy,True,Ringworm,0.7341,0.1367,0.1116,0.7341,0.0176
+Image_3-2-_jpg.rf.efed7fafa598f6b187dcfeb0d876258e.jpg,Flea Allergy,True,Flea Allergy,0.9702,0.9702,0.0006,0.0282,0.001
+Image_41_jpeg.rf.518a3c92869d46065fb1991c439621e6.jpg,Flea Allergy,True,Ringworm,0.5622,0.4294,0.0028,0.5622,0.0056
+Image_44_jpg.rf.203687b87ae08f3b82f50cae851b6139.jpg,Flea Allergy,True,Flea Allergy,0.885,0.885,0.024,0.05,0.0409
+Image_56_jpg.rf.9aff189f4c950e77e41a75cdecfcd733.jpg,Flea Allergy,True,Flea Allergy,0.7172,0.7172,0.0054,0.2534,0.024
+Image_60-2-_jpg.rf.b88ebddef9f68c2767f29953b19fa456.jpg,Flea Allergy,False,Ringworm,0.612,0.0606,0.2312,0.612,0.0961
+thumb-11-_jpg.rf.f8d0ab9b2e894061dbd134978983d06b.jpg,Flea Allergy,True,Flea Allergy,0.9674,0.9674,0.0014,0.0273,0.004
+thumb-30-_jpg.rf.15ab67e3841b9a444d7095bb7874a9b8.jpg,Flea Allergy,True,Flea Allergy,0.8783,0.8783,0.0028,0.1159,0.003
+thumb-37-_jpg.rf.280f018d2a00770aa6eeaa620865f3cd.jpg,Flea Allergy,True,Flea Allergy,0.9433,0.9433,0.0028,0.0521,0.0017
+thumb-38-_jpg.rf.ac4b6d6b43325f92df083cb97fc0eb9e.jpg,Flea Allergy,True,Flea Allergy,0.9788,0.9788,0.0008,0.0153,0.0051
+thumb-49-_jpg.rf.fb050558b6751dc3457d63654bb31a53.jpg,Flea Allergy,True,Flea Allergy,0.9083,0.9083,0.0119,0.0766,0.0033
+0012-Zg5-63ZY_f0_jpg.rf.05ca19f5004d5282ee6fe5dd46f8197d.jpg,Health,False,Health,0.6218,0.0123,0.6218,0.1669,0.199
+0067-5lItam5zCPc_jpg.rf.17d14698f4e9dbf281f8cd9657d37cb4.jpg,Health,True,Health,0.5213,0.003,0.5213,0.0714,0.4043
+0424-Q64SQDVtEqM_jpg.rf.7237874dc475adda214dc66388340658.jpg,Health,True,Health,0.5902,0.0735,0.5902,0.1302,0.2061
+0445-AyyKrB2BlU8_jpg.rf.8f0811295cb180478b3c69d191f74583.jpg,Health,False,Health,0.8992,0.0016,0.8992,0.0641,0.0351
+0567-85oWUFWKez8_jpg.rf.0634b2900bba46f7192806e4315df42f.jpg,Health,True,Health,0.7534,0.0018,0.7534,0.043,0.2018
+0626-Wtqc78zzq3I_jpg.rf.44ff70117a07fc164930ab38dffe44a1.jpg,Health,False,Health,0.9974,0.0,0.9974,0.0003,0.0024
+0716-kSZXp5_fltQ_jpg.rf.4122790fc6514b74c604f41baf1fc2d9.jpg,Health,False,Health,0.7006,0.0416,0.7006,0.1103,0.1475
+0777-PixFVQ9TE9s_jpg.rf.e36e2de830bfa722e4aace826a1aa229.jpg,Health,True,Health,0.4857,0.0079,0.4857,0.1375,0.3689
+0873-diRExH62UgQ_jpg.rf.0b2cf553a92f7fec559b5d9639318568.jpg,Health,True,Health,0.9052,0.0082,0.9052,0.0485,0.0381
+1299-42enLcmtxQg_jpg.rf.b8546f758f91419e25ac44facb029495.jpg,Health,False,Health,0.5543,0.0497,0.5543,0.1691,0.2268
+1421-Xu4q19OQZIU_jpg.rf.8aa38876a0530b9b0cdf79be7c0910b2.jpg,Health,False,Health,0.7057,0.0034,0.7057,0.1086,0.1823
+1608-Wx0H1WizFpE_jpg.rf.b7a4ba287161c3331a7f060a425a70d4.jpg,Health,False,Health,0.9163,0.0024,0.9163,0.0406,0.0407
+1614-7xSWybUM7l0_jpg.rf.b4e4dc569cfffa07535195384a1e5ec6.jpg,Health,True,Scabies,0.8618,0.0001,0.1244,0.0137,0.8618
+1621-TysJ1W34klk_jpg.rf.d2d9457511f1c372d23e6eee23349b74.jpg,Health,True,Health,0.9919,0.0,0.9919,0.0033,0.0048
+1718-MqXWogtgq18_jpg.rf.643d28a80fa227d75a57a9e9543631e1.jpg,Health,True,Ringworm,0.4893,0.1757,0.2161,0.4893,0.119
+1836-UH6jun2MyNU_jpg.rf.5a0d3b244e2573735c244d1d87c3c5e7.jpg,Health,False,Health,0.9028,0.0039,0.9028,0.032,0.0613
+26da1f8b744ccff35a3cba4026407b9d_jpg.rf.553f7056d867cee70e8a93ff3231f9c5.jpg,Health,True,Health,0.6925,0.0237,0.6925,0.1917,0.0922
+3050-P0B0_MFtvTs_jpg.rf.5a3f6bf9c6973a03a79642f00927d1f0.jpg,Health,True,Ringworm,0.8878,0.0516,0.0482,0.8878,0.0124
+3109-LDREJLa_icM_jpg.rf.0c8c375f81180d45b1682873557b2222.jpg,Health,False,Scabies,0.4885,0.0112,0.433,0.0673,0.4885
+3186-c9dRAR0_nE8_jpg.rf.d7f747521ea03a4656310ae2173f0ec6.jpg,Health,True,Health,0.5128,0.0464,0.5128,0.2652,0.1756
+3224-KQdvva2keSU_jpg.rf.98ea7304f0481642dc550452fa3948ba.jpg,Health,True,Health,0.893,0.0066,0.893,0.0659,0.0345
+438065128_1131683351211331_1845213034057261747_n_jpg.rf.c9953184479604bc08d7df7b52786743.jpg,Health,True,Scabies,0.4439,0.0648,0.1134,0.3779,0.4439
+4f1107f67eb99b8d1092357316113522_jpg.rf.15562cfec69542aae04ef33fb030c544.jpg,Health,False,Health,0.3535,0.0478,0.3535,0.3304,0.2683
+A2I7OOmaexY_jpg.rf.e83007a60aa3456b3c1c5a4b9b14065c.jpg,Health,True,Health,0.9549,0.001,0.9549,0.0099,0.0342
+dAQCZZzY54w_jpg.rf.9d1bca71435c8b4701c4fb0802ab05b6.jpg,Health,False,Ringworm,0.5692,0.0755,0.2955,0.5692,0.0598
+healthy22_jpg.rf.a80a2fa0dfd4578088059cdf5a722a1e.jpg,Health,True,Ringworm,0.5205,0.0356,0.0417,0.5205,0.4022
+KhqMLepgrgk_jpg.rf.722a363bac037060acbf0a58eb1a440e.jpg,Health,True,Health,0.4409,0.061,0.4409,0.227,0.2711
+oEk0md4bD4A_jpg.rf.4f5982eb6f82089ab8a54a9c1bc65821.jpg,Health,False,Health,0.7164,0.0476,0.7164,0.1463,0.0896
+photo1693613269_jpeg_jpg.rf.46754fbc759c8cef4f974a1db3063ac3.jpg,Health,True,Health,0.7748,0.0191,0.7748,0.0984,0.1077
+photo1693721816_jpeg_jpg.rf.5716838e9a4dcfbc57f14ee502b36568.jpg,Health,True,Health,0.4923,0.0153,0.4923,0.3054,0.1871
+photo1694093617_jpeg_jpg.rf.8e0edef8904021bdaa584b1409e05879.jpg,Health,True,Health,0.6728,0.1137,0.6728,0.1035,0.11
+photo1694269860_jpeg_jpg.rf.7cb08dcdfa67490276b8b906c052a93f.jpg,Health,False,Health,0.9084,0.0005,0.9084,0.0205,0.0707
+photo1694319073_jpeg_jpg.rf.df4b96ce5ad6fea7a5064f816e3656b5.jpg,Health,True,Health,0.7574,0.0307,0.7574,0.1639,0.0481
+photo1694943915_jpeg_jpg.rf.75927731e2bed6066e34f586303604fc.jpg,Health,False,Ringworm,0.3322,0.1078,0.3308,0.3322,0.2292
+qmrm-YSExOY_jpg.rf.d17779d8ee4df3732a6f08777ab0f46f.jpg,Health,True,Health,0.547,0.2487,0.547,0.1381,0.0662
+S2IGnPjVCJs_jpg.rf.773e2419f8d684030366222dc1534dbd.jpg,Health,True,Health,0.8329,0.0053,0.8329,0.0668,0.095
+thScTIqI8ss_jpg.rf.421f30e28c82dfdfd345be147b70e8e7.jpg,Health,False,Health,0.7331,0.0097,0.7331,0.1815,0.0758
+143729276_10226592176700733_3761005219267467236_n_jpg.rf.c1004c2c2f5781815e50c194572138ff.jpg,Ringworm,True,Ringworm,0.48,0.2657,0.0556,0.48,0.1987
+hotspot-50-_jpg.rf.d0a516dd072935eebf2e6fd1052b47e0.jpg,Ringworm,True,Ringworm,0.5904,0.1814,0.0971,0.5904,0.1311
+hotspot-79-_jpg.rf.0d6b7372d1313d30badd02e452acd3d0.jpg,Ringworm,True,Flea Allergy,0.489,0.489,0.1804,0.3055,0.0251
+Image_42-3-_jpg.rf.de40f402d3cd803ca182d51018a61000.jpg,Ringworm,True,Ringworm,0.5037,0.087,0.0913,0.5037,0.318
+Image_47-4-_jpg.rf.761e4b5516f3b923353cfdb0c32fe8e9.jpg,Ringworm,True,Flea Allergy,0.936,0.936,0.0076,0.0474,0.009
+Image_60-2-_jpg.rf.43650a421c131ea896a547baf95cfbc6.jpg,Ringworm,True,Ringworm,0.5682,0.1129,0.1787,0.5682,0.1402
+Image_97_jpg.rf.80cc72cb8d5fa0516d6b8d23e997ce79.jpg,Ringworm,True,Ringworm,0.5683,0.1772,0.0533,0.5683,0.2012
+j52_jpeg_jpg.rf.231b08fe30215503c5f29687138b0cfd.jpg,Ringworm,True,Ringworm,0.4292,0.0462,0.3919,0.4292,0.1327
+jamur12_jpeg_jpg.rf.85536c08205b3d34f0f37fa87014cfe0.jpg,Ringworm,True,Ringworm,0.5604,0.1566,0.2584,0.5604,0.0246
+jamur15_jpeg_jpg.rf.68e4a13c28ef5e3e84bbb72d287f37e1.jpg,Ringworm,True,Ringworm,0.6219,0.0645,0.2882,0.6219,0.0254
+jamur3_jpeg_jpg.rf.6eb18a6692a1735f4d70b34f31102b26.jpg,Ringworm,True,Ringworm,0.457,0.094,0.3703,0.457,0.0787
+jamur49_jpeg_jpg.rf.832a99b03e6a6ad2a67f632e626a79fe.jpg,Ringworm,True,Health,0.3665,0.0922,0.3665,0.3096,0.2317
+jamur4_jpeg_jpg.rf.4cb6354060ffa8281f120ed1a416a5dc.jpg,Ringworm,True,Ringworm,0.4496,0.3671,0.0879,0.4496,0.0954
+jamur5_jpeg_jpg.rf.2ead4e1ed599b0f9811b3467863e9b92.jpg,Ringworm,True,Ringworm,0.5632,0.2879,0.0802,0.5632,0.0686
+jamur74_jpeg_jpg.rf.e755017b60e3b03ae430920b087c125e.jpg,Ringworm,True,Scabies,0.4978,0.0694,0.067,0.3658,0.4978
+jamur88_jpeg_jpg.rf.df44ba83055ce05804aab6a5e52c3364.jpg,Ringworm,True,Ringworm,0.5496,0.2391,0.1118,0.5496,0.0995
+jamur8_jpeg_jpg.rf.e11b5b4e5f496c8352975cc4f7aaa570.jpg,Ringworm,True,Ringworm,0.8189,0.1388,0.0338,0.8189,0.0085
+May-is-allergy-awareness-month-here-at-The-Shot-Spot_02797_jpg.rf.a7c0cb746c2d41310c1647bdd1f748ff.jpg,Ringworm,True,Ringworm,0.5263,0.0946,0.095,0.5263,0.2841
+OIP-8-_x16_jpg.rf.e0ead9333d21c859542942592c0b4353.jpg,Ringworm,True,Ringworm,0.7407,0.2286,0.0228,0.7407,0.0078
+ringworm18_jpg.rf.1cfae65b4e370b0e729d417b4bd2dcd5.jpg,Ringworm,True,Flea Allergy,0.6718,0.6718,0.1007,0.1532,0.0744
+ringworm41_jpg.rf.2088c910de01cbaedb25838ef16cf4c4.jpg,Ringworm,True,Flea Allergy,0.3959,0.3959,0.3891,0.1873,0.0277
+ringworm42_png_jpg.rf.9e8be5123aee0c6f095e75423f11352a.jpg,Ringworm,True,Ringworm,0.5302,0.0631,0.2548,0.5302,0.1519
+ringworm47_png_jpg.rf.5a3932a23f4d25aef3e69466b4e8266a.jpg,Ringworm,True,Ringworm,0.8361,0.0662,0.0887,0.8361,0.009
+ringworm47_png_jpg.rf.94a4e109451e14e31d6d87a837b39282.jpg,Ringworm,True,Ringworm,0.8633,0.076,0.0538,0.8633,0.007
+ringworm50_jpg.rf.af325af08dfdcb648c1e665df21447e3.jpg,Ringworm,True,Ringworm,0.6548,0.244,0.0292,0.6548,0.0721
+ringworm9_jpg.rf.a65c057c244c1490a92670a2b251bf08.jpg,Ringworm,True,Ringworm,0.7319,0.2455,0.0138,0.7319,0.0088
+s5_jpeg_jpg.rf.cd77e90a77efd88a7c2f95ab5e040ecd.jpg,Ringworm,True,Ringworm,0.5409,0.2168,0.1983,0.5409,0.0439
+Screenshot-2024-10-14-175932_png_jpg.rf.4572120273f92b58ff542ca7cf6b81af.jpg,Ringworm,True,Ringworm,0.9049,0.0741,0.0135,0.9049,0.0075
+Screenshot-2024-10-14-175932_png_jpg.rf.b7bb7900e90f2736bf626b8625d5e2cc.jpg,Ringworm,True,Ringworm,0.7016,0.1825,0.0273,0.7016,0.0886
+Screenshot-2024-10-14-180043_png_jpg.rf.3a4bba1c876ff42e9a07b5af1a2d6084.jpg,Ringworm,True,Ringworm,0.5491,0.0338,0.1198,0.5491,0.2973
+Screenshot-2024-11-16-182105_png.rf.be23292314fc3ff8da451c758cc398cf.jpg,Ringworm,True,Ringworm,0.4988,0.4343,0.0166,0.4988,0.0504
+Screenshot-2024-11-16-184110_png.rf.e033a8e4f920a90eeb5e19fe862d9284.jpg,Ringworm,True,Ringworm,0.688,0.2667,0.0272,0.688,0.018
+Screenshot-2024-11-16-184314_png.rf.ef50866b95091e291c9dc01f0598ef63.jpg,Ringworm,True,Scabies,0.4605,0.0613,0.058,0.4202,0.4605
+waj14_jpeg_jpg.rf.976ce7f8001bb4c44928912ede1c7a70.jpg,Ringworm,True,Ringworm,0.8082,0.0465,0.0285,0.8082,0.1168
+was4_jpeg_jpg.rf.648b17bb3432867b204bfb1d409ae6c1.jpg,Ringworm,True,Ringworm,0.8073,0.064,0.0323,0.8073,0.0964
+26_png_jpg.rf.d06fd7101c6153dbd3901cc9754eb83a.jpg,Scabies,True,Scabies,0.6389,0.0269,0.1799,0.1543,0.6389
+Cidww4cUUAAThzp_jpg.rf.11c6aacb8911b7c1d409e6d24baf313f.jpg,Scabies,False,Health,0.37,0.106,0.37,0.2523,0.2717
+download-5-_jpeg_jpg.rf.0c74d68e6b6dfabf871307f21c7932a8.jpg,Scabies,True,Scabies,0.4802,0.0339,0.3503,0.1356,0.4802
+Frame-39_jpeg_jpg.rf.eb406932b5121914a72783d627c90b4d.jpg,Scabies,False,Health,0.8577,0.002,0.8577,0.047,0.0932
+Frame-8_jpeg_jpg.rf.0da4219e557411923f737a5d030f3d6b.jpg,Scabies,False,Scabies,0.7669,0.078,0.0644,0.0906,0.7669
+frame8_129_jpg.rf.a3c4a1d28eab91ca7051c9e9c7e864ab.jpg,Scabies,True,Scabies,0.7188,0.0087,0.134,0.1385,0.7188
+frame8_598_jpg.rf.e300668d4dbd5f5d67ddd1b9fb76eb3c.jpg,Scabies,True,Scabies,0.7732,0.0234,0.1595,0.0439,0.7732
+FuOeDD_aYAESg1Q_jpg.rf.68302b142c7605a8d639657bc6be586f.jpg,Scabies,True,Scabies,0.6893,0.0298,0.1543,0.1267,0.6893
+IG2_1173_jpg.rf.fc665cce516adbbaa2a1f1bab01f9b85.jpg,Scabies,True,Scabies,0.5045,0.0017,0.4469,0.0468,0.5045
+IG2_1678_jpg.rf.cc5e01ecab18ba1265643b7c56a36c46.jpg,Scabies,False,Scabies,0.5705,0.0004,0.4192,0.0099,0.5705
+IG2_454_jpg.rf.e15a39639ee8f6c4fcb31f25b2590c3d.jpg,Scabies,True,Scabies,0.6413,0.0,0.3538,0.0048,0.6413
+image18_png_jpg.rf.944fdc72ab8d0968e21e302c7bba66c7.jpg,Scabies,True,Health,0.4448,0.0625,0.4448,0.3589,0.1338
+image27_png_jpg.rf.7bed9f207deec0189a6d80e91c361e67.jpg,Scabies,True,Health,0.423,0.0229,0.423,0.3645,0.1896
+image_scabies8_png_jpg.rf.700902df088de688acda812e6a7675a1.jpg,Scabies,True,Health,0.5011,0.0576,0.5011,0.108,0.3333
+images-2-_jpeg_jpg.rf.aeb470f833de9cb25884db26232a48a9.jpg,Scabies,True,Ringworm,0.5203,0.0369,0.1945,0.5203,0.2482
+images-5-_jpeg_jpg.rf.11f1e6f3f2df5f0df2135b9d8831470e.jpg,Scabies,True,Health,0.7009,0.008,0.7009,0.0993,0.1918
+Screenshot-2024-11-16-180317_png.rf.9f6bddc0a6b90eaf1f0ea95d12421ae2.jpg,Scabies,True,Scabies,0.6691,0.034,0.1419,0.155,0.6691
+Screenshot-2024-11-16-180805_png.rf.2ffb6b169295193b1bddb7e7d5e0e915.jpg,Scabies,True,Scabies,0.8266,0.0146,0.0585,0.1003,0.8266

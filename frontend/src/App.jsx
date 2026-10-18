@@ -52,7 +52,9 @@ function ProbabilityBars({ probabilities, topLabel }) {
 }
 
 function ResultCard({ result, onReset }) {
-  const [showOverlay, setShowOverlay] = useState(true);
+  const isUnclear = result.result_type === "uncertain";
+  // unclear result: start with the plain photo, the user can choose to see the areas
+  const [showOverlay, setShowOverlay] = useState(!isUnclear);
   const { prediction, disease_info: info, images, lesion } = result;
   const hasOverlay = Boolean(images.overlay);
   const imgSrc = hasOverlay && showOverlay ? images.overlay : images.original;
@@ -68,29 +70,30 @@ function ResultCard({ result, onReset }) {
       <div className="result-grid">
         <figure className="result-figure">
           <img src={imgSrc} alt={hasOverlay && showOverlay
-            ? "Uploaded photo with the detected lesion area highlighted in red"
+            ? "Uploaded photo with the possible lesion area highlighted in red"
             : "Uploaded photo"} />
           {hasOverlay && (
             <div className="toggle" role="group" aria-label="Image view">
-              <button className={showOverlay ? "active" : ""} onClick={() => setShowOverlay(true)}>
-                Lesion highlighted
-              </button>
               <button className={!showOverlay ? "active" : ""} onClick={() => setShowOverlay(false)}>
                 Original
               </button>
+              <button className={showOverlay ? "active" : ""} onClick={() => setShowOverlay(true)}>
+                {isUnclear ? "Show possible areas" : "Lesion highlighted"}
+              </button>
             </div>
           )}
-          {lesion.shown && (
+          {lesion.shown && showOverlay && (
             <figcaption className="muted small">
-              Red area: region the U-Net marked as a possible lesion
-              ({lesion.area_pct}% of the photo). Yellow box: area analysed closely.
+              {isUnclear
+                ? "Red area: region the system found unusual. Because the result is unclear, this may be normal fur or skin."
+                : `Red area: region the U-Net marked as a possible lesion (${lesion.area_pct}% of the photo). Yellow box: area analysed closely.`}
             </figcaption>
           )}
         </figure>
 
         <div className="result-side">
           <div className="confidence">
-            <span className="muted small">Most likely</span>
+            <span className="muted small">{isUnclear ? "Highest score (not confident)" : "Most likely"}</span>
             <span className="confidence-label">{prediction.label}</span>
             <span className="confidence-value">{(prediction.confidence * 100).toFixed(1)}%</span>
           </div>
@@ -99,7 +102,12 @@ function ResultCard({ result, onReset }) {
       </div>
 
       <div className="info">
-        <h3 className="section-title">{info.name}</h3>
+        <h3 className="section-title">{isUnclear ? `If it is: ${info.name}` : info.name}</h3>
+        {isUnclear && (
+          <p className="muted small">
+            Shown because it had the highest score among the diseases. This is not a diagnosis.
+          </p>
+        )}
         <p>{info.description}</p>
         {result.result_type !== "healthy" && (
           <p><strong>Contagious:</strong> {info.contagious}</p>
