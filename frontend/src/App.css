@@ -1,0 +1,146 @@
+/* FelineHealth-AI - dark theme. Colour contrast checked against the card surface. */
+:root {
+  --bg: #0d1117;
+  --card: #161b22;
+  --border: #30363d;
+  --text: #e6edf3;          /* 14.6:1 on card */
+  --text-2: #9da7b3;        /*  7.1:1 */
+  --muted: #7d8590;         /*  4.6:1 */
+  --accent: #58a6ff;
+  --bar-top: #58a6ff;       /* most likely class */
+  --bar: #3b78c4;           /* other classes (same hue, darker) */
+  --track: #262d36;         /* recessive background for bars */
+  --good: #3fb950;
+  --warning: #d29922;
+  --critical: #f85149;
+  --radius: 12px;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.5;
+}
+
+.app { max-width: 980px; margin: 0 auto; padding: 32px 20px 48px; }
+.header { text-align: center; margin-bottom: 24px; }
+.header h1 { margin: 0 0 6px; font-size: 2rem; }
+.logo { margin-right: 6px; }
+.muted { color: var(--text-2); }
+.small { font-size: 0.85rem; }
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+}
+
+/* ---------- upload ---------- */
+.dropzone {
+  border: 2px dashed var(--border);
+  border-radius: var(--radius);
+  min-height: 260px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  text-align: center; padding: 20px; cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+.dropzone:hover, .dropzone:focus-visible, .dropzone.is-dragging {
+  border-color: var(--accent); background: rgba(88, 166, 255, 0.06); outline: none;
+}
+.dropzone p { margin: 4px 0; }
+.drop-icon { font-size: 2rem; color: var(--accent); margin-bottom: 8px; }
+.preview { max-height: 320px; max-width: 100%; border-radius: 8px; }
+
+.actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 16px; align-items: center; }
+.btn {
+  background: #21262d; color: var(--text); border: 1px solid var(--border);
+  border-radius: 8px; padding: 10px 18px; font-size: 1rem; cursor: pointer;
+  display: inline-flex; align-items: center; gap: 8px;
+}
+.btn:hover:not(:disabled) { border-color: var(--text-2); }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.btn-primary { background: #1f6feb; border-color: #1f6feb; color: #fff; font-weight: 600; }
+.btn-primary:hover:not(:disabled) { background: #388bfd; }
+.btn-secondary { margin-top: 20px; }
+.btn-link { background: none; border: none; color: var(--text-2); text-decoration: underline; }
+
+.spinner {
+  width: 16px; height: 16px; border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.35); border-top-color: #fff;
+  animation: spin 0.8s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.error { color: var(--critical); margin: 12px 0 0; }
+.alert {
+  border: 1px solid var(--warning); background: rgba(210, 153, 34, 0.12);
+  border-radius: 8px; padding: 12px 16px; margin-bottom: 16px;
+}
+code { background: #21262d; padding: 1px 6px; border-radius: 4px; }
+
+.tips { margin-top: 24px; }
+.tips ul { margin: 6px 0 0; padding-left: 20px; color: var(--text-2); }
+.section-title { font-size: 1rem; margin: 0 0 10px; }
+
+/* ---------- result ---------- */
+.result-header { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+.result-title { margin: 12px 0 20px; font-size: 1.4rem; }
+
+/* status badge: colour + icon + words (never colour alone) */
+.badge {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 4px 12px 4px 4px; border-radius: 999px;
+  border: 1px solid; font-weight: 600; font-size: 0.9rem; color: var(--text);
+}
+.badge-icon {
+  width: 22px; height: 22px; border-radius: 50%;
+  display: inline-flex; align-items: center; justify-content: center;
+  color: #0d1117; font-weight: 800;
+}
+.status-critical { border-color: var(--critical); background: rgba(248, 81, 73, 0.15); }
+.status-critical .badge-icon { background: var(--critical); }
+.status-good { border-color: var(--good); background: rgba(63, 185, 80, 0.15); }
+.status-good .badge-icon { background: var(--good); }
+.status-warning { border-color: var(--warning); background: rgba(210, 153, 34, 0.15); }
+.status-warning .badge-icon { background: var(--warning); }
+
+.result-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 24px; }
+@media (max-width: 760px) { .result-grid { grid-template-columns: 1fr; } }
+
+.result-figure { margin: 0; }
+.result-figure img { width: 100%; border-radius: 8px; display: block; }
+.result-figure figcaption { margin-top: 8px; }
+.toggle { display: inline-flex; margin-top: 10px; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+.toggle button {
+  background: transparent; color: var(--text-2); border: none; padding: 6px 12px; cursor: pointer;
+}
+.toggle button.active { background: #21262d; color: var(--text); }
+
+.confidence {
+  display: grid; grid-template-columns: 1fr auto; align-items: baseline;
+  border-bottom: 1px solid var(--border); padding-bottom: 14px; margin-bottom: 16px;
+}
+.confidence .muted { grid-column: 1 / -1; }
+.confidence-label { font-size: 1.5rem; font-weight: 700; }
+.confidence-value { font-size: 1.5rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+
+/* probability bars: one hue (one measure), sorted, value written as text */
+.prob-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.prob-row {
+  display: grid; grid-template-columns: 96px 1fr 56px; align-items: center; gap: 10px;
+}
+.prob-name { color: var(--text-2); font-size: 0.9rem; }
+.prob-track { height: 10px; background: var(--track); border-radius: 0 4px 4px 0; overflow: hidden; }
+.prob-fill { display: block; height: 100%; background: var(--bar); border-radius: 0 4px 4px 0; }
+.prob-fill.is-top { background: var(--bar-top); }
+.prob-value { text-align: right; font-variant-numeric: tabular-nums; font-size: 0.9rem; }
+
+.info { margin-top: 24px; padding-top: 18px; border-top: 1px solid var(--border); }
+.info p { margin: 6px 0; color: var(--text-2); }
+.info strong { color: var(--text); }
+
+.footer { text-align: center; margin-top: 28px; }

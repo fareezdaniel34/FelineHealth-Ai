@@ -1,0 +1,15 @@
+# Python
+backend/venv/
+__pycache__/
+*.pyc
+
+# Node / frontend
+**/node_modules/
+frontend/dist/
+
+# Data
+ml/data/
+*.npy
+
+# Secrets
+.env
